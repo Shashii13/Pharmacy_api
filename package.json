@@ -1,0 +1,19 @@
+{
+  "name": "pharmacy-api",
+  "version": "1.0.0",
+  "description": "Pharmacy delivery app API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "import": "node scripts/import.js",
+    "test": "NODE_ENV=test jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
